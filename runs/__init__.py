@@ -1,1 +1,1 @@
-from src.gen_imgs import Diffusion
+from src.diffusion import Diffusion
