@@ -1,6 +1,8 @@
 # Pixel Giffusion (text-to-pixel-gif)
 ## Generating Pixel-Art-Style Gifs from Text Prompts
 
+## Authors: Joseph Iovine, Rahul Jain, Kenneth Alvarez, Sunil Sabnis, Carlos Ponce
+
 ### Setup:
 * create a conda environment
 * install dependencies: `pip install -r requirements.txt`
