@@ -9,5 +9,8 @@
 * install pyxelate library: https://github.com/sedthh/pyxelate
 * connect to GPU runtime for any interaction with diffusion model
 
+### Data:
+* [Generated Dataset](https://huggingface.co/datasets/sunilSabnis/pixelart): pixel-style art by distillation
+
 ### Formatting:
 * run `black <file.py>` prior to any commit
