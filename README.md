@@ -35,6 +35,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#datasets-and-models">Built With</a></li>
         <li><a href="#examples">Examples</a></li>
       </ul>
     </li>
@@ -85,6 +86,8 @@ The models that were obtained as a result of fine-tuning with these datasets are
 3. [jainr3/sd-nouns-model-lora](https://huggingface.co/jainr3/sd-nouns-model-lora): These are LoRA adaption weights for stabilityai/stable-diffusion-2-1. The weights were fine-tuned on the jiovine/pixel-art-nouns-2k dataset.
 
 4. [jainr3/sd-diffusiondb-pixelart-v2-model-lora](https://huggingface.co/jainr3/sd-diffusiondb-pixelart-v2-model-lora) : These are LoRA adaption weights for stabilityai/stable-diffusion-2-1. The weights were fine-tuned on the jainr3/diffusiondb-pixelart dataset. This model has been trained for 30 epochs while the jainr3/sd-diffusiondb-pixelart-model-lora model was trained on only 5 epochs.
+
+<p align="right">[<a href="#readme-top">Back to Top</a>]</p>
 
 ### Examples
 
