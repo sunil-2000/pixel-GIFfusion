@@ -185,4 +185,4 @@ This project was created as a part of the CS 5787 Deep Learning Final Project fo
 [stars-shield]: https://img.shields.io/github/stars/sunil-2000/text-to-pixel-gif.svg?style=for-the-badge
 [stars-url]: https://github.com/sunil-2000/text-to-pixel-gif/stargazers
 [license-shield]: https://img.shields.io/github/license/sunil-2000/text-to-pixel-gif.svg?style=for-the-badge
-[license-url]: https://github.com/sunil-2000/text-to-pixel-gif/blob/master/LICENSE.txt
+[license-url]: https://github.com/sunil-2000/text-to-pixel-gif/blob/main/LICENSE.txt
