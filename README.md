@@ -173,7 +173,7 @@ Project Link: [https://github.com/sunil-2000/text-to-pixel-gif](https://github.c
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-This project was created as a part of the CS 5787 Deep Learning Final Project for the Spring 2023 semester under the guidance of Professor Alex Jaimes.
+This project was created as a part of the CS 5787 Deep Learning Final Project for the Spring 2023 semester at Cornell Tech under the guidance of Professor Alex Jaimes.
 
 <p align="right">[<a href="#readme-top">Back to Top</a>]</p>
 
