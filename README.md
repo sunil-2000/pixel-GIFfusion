@@ -105,7 +105,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Create a fresh conda environment. Then install the following. A powerful GPU is necessary for most parts, so one may opt to use Google Colaboratory where an A100 high-RAM GPU is easily available.
+Create a fresh conda environment. Then install the following. A powerful GPU is necessary for most parts, so one may opt to use Google Colaboratory where an A100 high-RAM GPU is easily available with the Colab Pro plan.
 
 * Pyxelate Library: https://github.com/sedthh/pyxelate
   ```
@@ -129,7 +129,7 @@ Model Fine-Tuning
 
 2. Obtain a Wandb API Key from https://wandb.ai/ and save for later.
 
-3. Utilize the fine-tuning scripts located in the ```colab-notebooks``` folder. There are a number of example scripts for the different experiments that we performed which are for example using different datasets or training for shorter/longer.
+3. Utilize the fine-tuning scripts located in the ```colab-notebooks``` folder. There are a number of example scripts for the different experiments that we performed which are for example using different datasets or training for shorter/longer. The API keys will be needed in these scripts when prompted.
 
 GIF Generation
 
