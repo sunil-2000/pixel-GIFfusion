@@ -35,7 +35,7 @@ def slerp(t, v0, v1, DOT_THRESHOLD=0.9995):
 
 	return v2
 
-def make_gif(start_prompt, end_prompt, model_path="jainr3/sd-diffusiondb-pixelart-v2-model-lora", num_frames=20):
+def make_gif(start_prompt, end_prompt, model_path="jainr3/sd-diffusiondb-pixelart-v2-model-lora", num_frames=20, speed=200):
 	info = model_info(model_path)
 	model_base = info.cardData["base_model"]
 
@@ -71,7 +71,6 @@ def make_gif(start_prompt, end_prompt, model_path="jainr3/sd-diffusiondb-pixelar
 	prompt_embeddings = pipe.text_encoder(inputs.input_ids.to('cuda'))[0]
 
 	# Interpolate the start and end latent noise tensors and prompt embeddings
-	num_frames = num_frames
 	schedule = np.linspace(0, 1, num_frames)
 	in_between_latents = []
 	in_between_embeddings = []
@@ -89,13 +88,10 @@ def make_gif(start_prompt, end_prompt, model_path="jainr3/sd-diffusiondb-pixelar
 
 	images = [frame['images'][0] for frame in in_between_images]
 
-	prefix = start_prompt.replace(' ', '-')
-	suffix = end_prompt.replace(' ', '-')
-
 	images[0].save(
-		f"{prefix}-{suffix}.gif",
+		f"morphed.gif",
 		save_all=True,
 		append_images=images[1:],
-		duration=200,#100,
+		duration=speed,#100,
 		loop=0,
 	)
