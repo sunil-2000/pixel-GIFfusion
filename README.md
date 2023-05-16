@@ -97,7 +97,19 @@ The models that were obtained as a result of fine-tuning with these datasets are
 
    See [here](./colab-notebooks/MorphImages1.ipynb) for more details.
 
+<p align="center">
 <img src="out_images/generated-gifs/diffusiondb_snowy_cabin_in_woods_to_ancient_castle_with_dragon_above.gif" width="200" height="200" />
+</p>
+
+2. First text prompt: "The sun shining brightly"
+
+   Second text prompt: "A full moon glowing brightly"
+
+   See [here](./colab-notebooks//MorphImages2.ipynb) for more details.
+
+<p align="center">
+<img src="out_images/generated-gifs/diffusiondb-v2-the-sun-shining-brightly-to-a-full-moon-glowing-brightly.gif" width="200" height="200" />
+</p>
 
 <p align="right">[<a href="#readme-top">Back to Top</a>]</p>
 
