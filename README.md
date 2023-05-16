@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/sunil-2000/text-to-pixel-gif">
-    <img src="out_images/DiffusionDB-pixelart/2.png" alt="Logo" width="80" height="80">
+    <img src="out_images/generated-gifs/diffusiondb-v2-a-snowy-mountain-to-pyramids-in-egypt.gif" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Pixel Giffusion (text-to-pixel-GIF)</h3>
@@ -109,6 +109,16 @@ The models that were obtained as a result of fine-tuning with these datasets are
 
 <p align="center">
 <img src="out_images/generated-gifs/diffusiondb-v2-the-sun-shining-brightly-to-a-full-moon-glowing-brightly.gif" width="400" height="400" />
+</p>
+
+3. First text prompt: "A snowy mountain"
+
+   Second text prompt: "Pyramids in Egypt"
+   
+   See [here](./colab-notebooks/MorphImages3.ipynb) for more details.
+   
+<p align="center">
+<img src="out_images/generated-gifs/diffusiondb-v2-a-snowy-mountain-to-pyramids-in-egypt.gif" width="400" height="400" />
 </p>
 
 <p align="right">[<a href="#readme-top">Back to Top</a>]</p>
