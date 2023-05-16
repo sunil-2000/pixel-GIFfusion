@@ -2,6 +2,7 @@ import torch
 import numpy as np
 from PIL import Image
 from diffusers import StableDiffusionPipeline, DPMSolverMultistepScheduler
+from MorphImages import make_gif
 
 
 class Diffusion:
@@ -60,3 +61,12 @@ class Diffusion:
             duration=50,
             loop=0,
         )
+
+    def prompt_to_gif(self):
+        """
+        asks user for two prompts, creates and saves gif that morphs between 
+        the two images in current directory
+        """
+        prompt1 = input('First prompt: ')
+        prompt2 = input('Second prompt: ')
+        make_gif(prompt1, prompt2)
