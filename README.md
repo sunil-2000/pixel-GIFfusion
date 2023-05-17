@@ -121,6 +121,23 @@ The models that were obtained as a result of fine-tuning with these datasets are
 <img src="out_images/generated-gifs/diffusiondb-v2-a-snowy-mountain-to-pyramids-in-egypt.gif" width="400" height="400" />
 </p>
 
+4. GIF-chaining example
+
+   'Snowy cabin in the woods',
+   'A house boat on a lake', 
+   'A beach house on a sunny day', 
+   'A medieval castle', 
+   'A gothic style clock tower', 
+   'A skyscraper in a large metropolitan city',
+   'The empire state building in new york city during night'
+
+   See [here](./colab-notebooks/gif_chain.ipynb) for more details.
+
+<p align="center">
+<img src="out_images/generated-gifs/diffusiondb-v2_gifchain_main_example.gif" width="400" height="400" />
+</p>
+
+
 <p align="right">[<a href="#readme-top">Back to Top</a>]</p>
 
 <!-- GETTING STARTED -->
