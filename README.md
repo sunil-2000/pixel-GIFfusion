@@ -93,12 +93,12 @@ The models that were obtained as a result of fine-tuning with these datasets are
 
 1. First text prompt: "Snowy cabin in the woods"
 
-   Second text prompt: "Ancient castle with a fire breathing dragon above"
+   Second text prompt: "A medieval castle"
 
    See [here](./colab-notebooks/MorphImages1.ipynb) for more details.
 
 <p align="center">
-<img src="out_images/generated-gifs/diffusiondb_snowy_cabin_in_woods_to_ancient_castle_with_dragon_above.gif" width="400" height="400" />
+<img src="out_images/generated-gifs/diffusiondb_snowy_cabin_in_woods_to_medieval_castle.gif" width="400" height="400" />
 </p>
 
 2. First text prompt: "The sun shining brightly"
