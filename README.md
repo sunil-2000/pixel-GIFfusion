@@ -121,7 +121,16 @@ The models that were obtained as a result of fine-tuning with these datasets are
 <img src="out_images/generated-gifs/diffusiondb-v2-a-snowy-mountain-to-pyramids-in-egypt.gif" width="400" height="400" />
 </p>
 
-4. GIF-chaining example
+4. First text prompt: "A surfer"
+
+   Second text prompt: "A snowboarder"
+   
+<p align="center">
+<img src="out_images/generated-gifs/snowboard_surf.gif" width="400" height="400" />
+</p>
+
+
+5. GIF-chaining example
 
    'Snowy cabin in the woods',
    'A house boat on a lake', 
