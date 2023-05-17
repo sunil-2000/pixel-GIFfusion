@@ -102,13 +102,13 @@ class Diffusion:
             loop=0,
             )
 
-    def gif_chain(self, prompts: List[str], speed: int = 200) -> None:
+    def gif_chain(self, prompts: List[str], speed: int = 200, num_frames:int=40) -> None:
         """
         chain prompts in sequence to create larger gif
         """
         images = []
         for i in tqdm(range(len(prompts) - 1)):  # process in pairs
-            images.extend(self.gif_step(prompts[i], prompts[i + 1]))
+            images.extend(self.gif_step(prompts[i], prompts[i + 1], num_frames=num_frames))
 
         images[0].save(
             f"morphed.gif",
