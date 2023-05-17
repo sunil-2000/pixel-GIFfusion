@@ -40,7 +40,6 @@ class Diffusion:
                 self.pipe.scheduler.config
             )
         self.pipe = self.pipe.to("cuda")
-        self.pipe.enable_attention_slicing()  # save GPU vram
 
     def text_to_image(
         self, prompts: List[str], img_name="diffusion_img", output_dir="./"
@@ -120,7 +119,7 @@ class Diffusion:
         )
 
     def gif_step(
-        self, start_prompt: str, end_prompt: str, num_frames: int = 20
+        self, start_prompt: str, end_prompt: str, num_frames: int = 40
     ) -> List[Image]:
         # Hard coded image dims
         device = "cuda"
