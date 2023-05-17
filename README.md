@@ -151,13 +151,9 @@ Model Fine-Tuning
 
 3. Utilize the fine-tuning scripts located in the ```colab-notebooks``` folder. There are a number of example scripts for the different experiments that we performed which are for example using different datasets or training for shorter/longer. The API keys will be needed in these scripts when prompted.
 
-GIF Generation
+GIF Generation / Chaining
 
-1. See [this example](./examples/gif-generation.ipynb) for detailed instructions.
-
-GIF Chaining
-
-1. See [this example](./examples/gif-chaining.ipynb) for detailed instructions.
+1. See [this example](./colab-notebooks/gif_generation_script.ipynb) for detailed instructions.
 
 <p align="right">[<a href="#readme-top">Back to Top</a>]</p>
 
