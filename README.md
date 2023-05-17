@@ -93,12 +93,12 @@ The models that were obtained as a result of fine-tuning with these datasets are
 
 1. First text prompt: "Snowy cabin in the woods"
 
-   Second text prompt: "Ancient castle with a fire breathing dragon above"
+   Second text prompt: "A medieval castle"
 
    See [here](./colab-notebooks/MorphImages1.ipynb) for more details.
 
 <p align="center">
-<img src="out_images/generated-gifs/diffusiondb_snowy_cabin_in_woods_to_ancient_castle_with_dragon_above.gif" width="400" height="400" />
+<img src="out_images/generated-gifs/diffusiondb_snowy_cabin_in_woods_to_medieval_castle.gif" width="400" height="400" />
 </p>
 
 2. First text prompt: "The sun shining brightly"
@@ -130,16 +130,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Create a fresh conda environment. Then install the following. A powerful GPU is necessary for most parts, so one may opt to use Google Colaboratory where an A100 high-RAM GPU is easily available with the Colab Pro plan.
-
-* Pyxelate Library: https://github.com/sedthh/pyxelate
-  ```
-  pip install git+https://github.com/sedthh/pyxelate.git --upgrade
-  ```
-* Requirements
-  ```
-  pip install -r requirements.txt
-  ```
+A powerful GPU is necessary for most parts, so one may opt to use Google Colaboratory where an A100 high-RAM GPU is easily available with the Colab Pro plan.
 
 ### Installation
 
@@ -147,7 +138,11 @@ Create a fresh conda environment. Then install the following. A powerful GPU is 
    ```sh
    git clone https://github.com/sunil-2000/text-to-pixel-gif.git
    ```
-
+2. Install the requirements (install diffusers and transformers libraries at a minimum for inference)
+  ```
+  pip install -r requirements.txt
+  ```
+  
 Model Fine-Tuning
 
 1. Obtain a Huggingface API Key from https://huggingface.co/ and save for later.
@@ -158,9 +153,11 @@ Model Fine-Tuning
 
 GIF Generation
 
-1. abc
+1. See [this example](./examples/gif-generation.ipynb) for detailed instructions.
 
-2. abc
+GIF Chaining
+
+1. See [this example](./examples/gif-chaining.ipynb) for detailed instructions.
 
 <p align="right">[<a href="#readme-top">Back to Top</a>]</p>
 
