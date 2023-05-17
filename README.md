@@ -138,7 +138,7 @@ A powerful GPU is necessary for most parts, so one may opt to use Google Colabor
    ```sh
    git clone https://github.com/sunil-2000/text-to-pixel-gif.git
    ```
-2. Install the requirements (install diffusers and transformers libraries)
+2. Install the requirements (install diffusers and transformers libraries at a minimum for inference)
   ```
   pip install -r requirements.txt
   ```
@@ -153,9 +153,11 @@ Model Fine-Tuning
 
 GIF Generation
 
-1. abc
+1. See [this example](./examples/gif-generation.ipynb) for detailed instructions.
 
-2. abc
+GIF Chaining
+
+1. See [this example](./examples/gif-chaining.ipynb) for detailed instructions.
 
 <p align="right">[<a href="#readme-top">Back to Top</a>]</p>
 
