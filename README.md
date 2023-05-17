@@ -130,16 +130,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Create a fresh conda environment. Then install the following. A powerful GPU is necessary for most parts, so one may opt to use Google Colaboratory where an A100 high-RAM GPU is easily available with the Colab Pro plan.
-
-* Pyxelate Library: https://github.com/sedthh/pyxelate
-  ```
-  pip install git+https://github.com/sedthh/pyxelate.git --upgrade
-  ```
-* Requirements
-  ```
-  pip install -r requirements.txt
-  ```
+A powerful GPU is necessary for most parts, so one may opt to use Google Colaboratory where an A100 high-RAM GPU is easily available with the Colab Pro plan.
 
 ### Installation
 
@@ -147,7 +138,11 @@ Create a fresh conda environment. Then install the following. A powerful GPU is 
    ```sh
    git clone https://github.com/sunil-2000/text-to-pixel-gif.git
    ```
-
+2. Install the requirements (install diffusers and transformers libraries)
+  ```
+  pip install -r requirements.txt
+  ```
+  
 Model Fine-Tuning
 
 1. Obtain a Huggingface API Key from https://huggingface.co/ and save for later.
